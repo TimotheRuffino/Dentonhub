@@ -1,0 +1,7 @@
+{
+  "name": "dentonhub",
+  "private": true,
+  "dependencies": {
+    "soft-ui-design-system": "^1.0.4"
+  }
+}
