@@ -3,12 +3,11 @@
 <html>
 
 <head>
-
-
+ <style> #typed { font-weight:bold; }  </style>
+<script src="https://kit.fontawesome.com/99e7cba2fb.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
 <div class="container position-sticky z-index-sticky top-0">
     <div class="row">
       <div class="col-12">
@@ -37,7 +36,7 @@
               </ul>
 
               <ul class="navbar-nav">
-                <button class="btn btn-sm  bg-gradient-danger  btn-round mb-0 me-1">Se connecter</button>
+                <button class="btn btn-sm  bg-gradient-primary  btn-round mb-0 me-1">Se connecter</button>
               </ul>
       </div>
     </div>
@@ -50,12 +49,12 @@
 <header>
     <div class="page-header min-vh-75">
       <div class="oblique position-absolute top-0 h-100 d-md-block d-none">
-        <div class="bg-img-top oblique-image bg-cover position-absolute fixed-top ms-auto h-100 z-index-0 ms-n6"></div>
+        <div class="bg-img-top oblique-image bg-cover position-absolute fixed-top ms-auto h-100 z-index-0 ms-n6" style="height: 130px; width: auto;"></div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-7 d-flex justify-content-center text-md-start text-center flex-column mt-sm-0 mt-7">
-            <h1 class="text-gradient text-danger">DentonHub</h1>
+            <h1 class="text-gradient text-primary">DentonHub </h1>
             <h1 class="mb-4">L'annuaire du monde dentaire</h1>
             <p class="lead pe-md-5 me-md-5">Promouvons la coopération, la qualité et l’innovation.</p>
               <div class="row justify-content-start">
@@ -64,11 +63,11 @@
                     <div class="col-md-8 col-7">
                       <div class="input-group">
                         <span class="input-group-text"><i class="fas fa-search"></i></span>
-                        <input type="text" class="form-control" placeholder="Je cherche un labo de prothèse à Paris …">
+                        <input type="text" class="form-control" placeholder="Prothésiste Lyon, réparateur Anthogyr Paris ...">
                       </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-4 text-start ps-0">
-                      <button type="button" class="btn bg-gradient-danger w-100 mb-0 h-100">Rechercher</button>
+                      <button type="button" class="btn bg-gradient-primary w-100 mb-0 h-100">Rechercher</button>
                     </div>
                   </div>
                 </div>
@@ -79,9 +78,332 @@
     </div>
   </header>
 
+
+
+
+
+
+<div class="container type-container">
+  <div class="card bg-cover text-center bg-gradient-primary">
+      <div class="card-body z-index-2 py-9">
+    <div class="row">
+      <div class="col-md-1">
+      </div>
+    <div class="col-md-10">
+        <h2 class="text-light bold-text">DentonHub réunit tous les acteurs du monde dentaire </h2>
+         <h3 class="text-light">Je cherche un <span class="text-light" id="typed"></span></h3>
+        <div id="typed-strings">
+          <h3 class="text-light">laboratoire de prothèse à Clermont-Ferrand...</h3>
+          <h3 class="text-light">organisme de radioprotection à Niort...</h3>
+          <h3 class="text-light">installateur pour cabinet à Toulouse...</h3>
+          <h3 class="text-light">réparateur Anthogyr sur Bandol...</h3>
+          <h3 class="text-light">organisme de formation DPC en ligne...</h3>
+    </div>
+    <div class="col-md-1">
+    </div>
+  </div>
+
+</div>
+</div>
+</div>
+
+<section class="py-md-7 pb-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-6 col-md-6">
+          <div class="info">
+            <div class="icon icon-shape text-center">
+              <svg class="text-primary" width="25px" height="25px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>spaceship</title>
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g transform="translate(-1720.000000, -592.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <g transform="translate(1716.000000, 291.000000)">
+                      <g transform="translate(4.000000, 301.000000)">
+                        <path class="color-foreground" d="M39.3,0.706666667 C38.9660984,0.370464027 38.5048767,0.192278529 38.0316667,0.216666667 C14.6516667,1.43666667 6.015,22.2633333 5.93166667,22.4733333 C5.68236407,23.0926189 5.82664679,23.8009159 6.29833333,24.2733333 L15.7266667,33.7016667 C16.2013871,34.1756798 16.9140329,34.3188658 17.535,34.065 C17.7433333,33.98 38.4583333,25.2466667 39.7816667,1.97666667 C39.8087196,1.50414529 39.6335979,1.04240574 39.3,0.706666667 Z M25.69,19.0233333 C24.7367525,19.9768687 23.3029475,20.2622391 22.0572426,19.7463614 C20.8115377,19.2304837 19.9992882,18.0149658 19.9992882,16.6666667 C19.9992882,15.3183676 20.8115377,14.1028496 22.0572426,13.5869719 C23.3029475,13.0710943 24.7367525,13.3564646 25.69,14.31 C26.9912731,15.6116662 26.9912731,17.7216672 25.69,19.0233333 L25.69,19.0233333 Z"></path>
+                        <path class="color-foreground" d="M1.855,31.4066667 C3.05106558,30.2024182 4.79973884,29.7296005 6.43969145,30.1670277 C8.07964407,30.6044549 9.36054508,31.8853559 9.7979723,33.5253085 C10.2353995,35.1652612 9.76258177,36.9139344 8.55833333,38.11 C6.70666667,39.9616667 0,40 0,40 C0,40 0,33.2566667 1.855,31.4066667 Z"></path>
+                        <path class="color-background" d="M17.2616667,3.90166667 C12.4943643,3.07192755 7.62174065,4.61673894 4.20333333,8.04166667 C3.31200265,8.94126033 2.53706177,9.94913142 1.89666667,11.0416667 C1.5109569,11.6966059 1.61721591,12.5295394 2.155,13.0666667 L5.47,16.3833333 C8.55036617,11.4946947 12.5559074,7.25476565 17.2616667,3.90166667 L17.2616667,3.90166667 Z" opacity="0.598539807"></path>
+                        <path class="color-background" d="M36.0983333,22.7383333 C36.9280725,27.5056357 35.3832611,32.3782594 31.9583333,35.7966667 C31.0587397,36.6879974 30.0508686,37.4629382 28.9583333,38.1033333 C28.3033941,38.4890431 27.4704606,38.3827841 26.9333333,37.845 L23.6166667,34.53 C28.5053053,31.4496338 32.7452344,27.4440926 36.0983333,22.7383333 L36.0983333,22.7383333 Z" id="color-3" opacity="0.598539807"></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <h5 class="mt-2">Référencement</h5>
+            <p>DentonHub vous permet d’être référencé gratuitement. Devenez trouvable auprès des professionnels de santé grâce à notre outils de recherche puissant. </p>
+            <button type="button" class="btn text-primary shadow-none mt-4">En savoir plus</button>
+          </div>
+        </div>
+        
+        <div class="col-lg-6 col-md-6">
+          <div class="info">
+            <i class="fas fa-book"></i>
+            </div>
+            <h5 class="mt-2">Annuaire</h5>
+            <p>Trouvez les partenaires dont vous avez besoin pour votre cabinet ou centre dentaire. Autour de vous, partout en France. </p>
+              <button type="button" class="btn text-primary shadow-none mt-4">En savoir plus</button>
+
+          </div>
+        </div>
+  </section>
+
+<div class="container">
+<h1 class="text-center d-flex justify-content-start mb-3"> <span class="text-gradient text-primary">DentonHub </span> &nbsp;c'est aussi ... </h1>
+  <div class="row type-container">
+  
+    <div class="col-lg-6">
+    <h3>Une information simple et claire.</h3>
+    <h3>Des ressources réglementaires et professionnelles. </h3>
+    <h3>Des outils choisis, référencés et comparés. </h3>
+	  <h3>Pour les acteurs du monde dentaire en France. </h3>
+
+    </div>
+
+  <div class="col-lg-6">
+  <%= image_tag("information.svg", style: "width:70%; position: relative; margin-left: 40px;") %>
+  </div>
+
+</div>
+
+<section class="py-7">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 me-auto">
+        <%= image_tag("newsletter.svg", style: "width:70%; position: relative; margin-left: 40px;") %>
+      </div>
+      <div class="col-lg-6 d-flex justify-content-center flex-column ms-auto">
+      <h4 class="title">Restez informés !</h4>
+        <p class="description">
+          Abonnez-vous à notre newsletter et suivez l'avancement du projet chaque semaine !
+        </p>
+        <form method="" action="">
+          <div class="row">
+            <div class="col-sm-8">
+              <div class="input-group mb-4">
+                <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                <input class="form-control" placeholder="Votre Email..." type="text">
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <button type="button" class="btn bg-gradient-primary w-100">S'abonner</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script type="text/javascript">
+    if (document.getElementById('typed')) {
+      var typed = new Typed("#typed", {
+        stringsElement: '#typed-strings',
+        typeSpeed: 40,
+        backSpeed: 40,
+        backDelay: 300,
+        startDelay: 500,
+        loop: true
+      });
+    }
+  </script>
 </body>
 
+<!-- ---- START FOOTER 2 dark w/ bg image 5 cols & subscribe area & social---- -->
+<footer class="footer py-7 position-relative bg-gradient-dark overflow-hidden">
+  <div class="position-absolute w-100 z-inde-1 top-0 mt-n3">
+    <svg width="100%" viewBox="0 -2 1920 157" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>wave-down</title>
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g fill="#FFFFFF" fill-rule="nonzero">
+                <g id="wave-down">
+                    <path d="M0,60.8320331 C299.333333,115.127115 618.333333,111.165365 959,47.8320321 C1299.66667,-15.5013009 1620.66667,-15.2062179 1920,47.8320331 L1920,156.389409 L0,156.389409 L0,60.8320331 Z" id="Path-Copy-2" transform="translate(960.000000, 78.416017) rotate(180.000000) translate(-960.000000, -78.416017) "></path>
+                </g>
+            </g>
+        </g>
+    </svg>
+  </div>
+  <div class="container position-relative mt-8">
+    <div class="row ">
+      <div class="col-lg-2 col-md-2 col-4">
+        <h6 class="text-white text-sm">Company</h6>
+        <ul class="flex-column ms-n3 nav">
+          <li class="nav-item">
+            <a class="nav-link text-white opacity-8" href="https://www.creative-tim.com" target="_blank">
+              Marketing
+            </a>
+          </li>
 
+          <li class="nav-item">
+            <a class="nav-link text-white opacity-8" href="https://www.creative-tim.com" target="_blank">
+              Analytics
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white opacity-8" href="https://www.creative-tim.com" target="_blank">
+              Commerce
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white opacity-8" href="https://www.creative-tim.com" target="_blank">
+              Insights
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-2 col-4">
+        <h6 class="text-white text-sm">Support</h6>
+        <ul class="flex-column ms-n3 nav">
+          <li class="nav-item">
+            <a class="nav-link text-white opacity-8" href="https://www.creative-tim.com" target="_blank">
+              Pricing
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white opacity-8" href="https://www.creative-tim.com" target="_blank">
+              Docs
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white opacity-8" href="https://www.creative-tim.com" target="_blank">
+              Guides
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white opacity-8" href="https://www.creative-tim.com" target="_blank">
+              API Suport
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-2 col-4">
+        <h6 class="text-white text-sm">Pages</h6>
+        <ul class="flex-column ms-n3 nav">
+          <li class="nav-item">
+            <a class="nav-link text-white opacity-8" href="https://www.creative-tim.com/presentation" target="_blank">
+              About
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white opacity-8" href="https://www.creative-tim.com/blog" target="_blank">
+              Blog
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white opacity-8" href="https://www.creative-tim.com" target="_blank">
+              Jobs
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white opacity-8" href="https://www.creative-tim.com" target="_blank">
+              Press
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-white opacity-8" href="https://www.creative-tim.com/affiliates/new" target="_blank">
+              Affiliates
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-2 col-4">
+        <h6 class="text-white text-sm">Legal</h6>
+        <ul class="flex-column ms-n3 nav">
+          <li class="nav-item">
+            <a class="nav-link text-white opacity-8" href="https://www.creative-tim.com" target="_blank">
+              Claim
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white opacity-8" href="https://www.creative-tim.com" target="_blank">
+              Privacy
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white opacity-8" href="https://www.creative-tim.com" target="_blank">
+              Terms
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-8 ms-md-auto">
+        <h6 class="text-white text-md-end text-sm mb-0">Language & Currency</h6>
+        <ul class="nav flex-column">
+          <li class="nav-item mt-3">
+            <select class="form-control" name="language-button" id="language-button" placeholder="Language">
+              <option value="Choice 1" selected>English</option>
+              <option value="Choice 2">Chinese</option>
+              <option value="Choice 3">French</option>
+              <option value="Choice 4">Romanian</option>
+            </select>
+          </li>
+          <li class="nav-item mt-3">
+            <select class="form-control" name="currency-button" id="currency-button" placeholder="Currency">
+              <option value="Choice 1" selected>USD</option>
+              <option value="Choice 2">EUR</option>
+              <option value="Choice 3">JPY</option>
+              <option value="Choice 4">GBP</option>
+              <option value="Choice 5">CAD</option>
+              <option value="Choice 6">RON</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr class="horizontal light mb-4 mt-lg-4">
+    <div class="row">
+      <div class="col-lg-6 text-start">
+        <h6 class="text-white">Subscribe to our newsletters</h6>
+        <p class="text-white opacity-8 mb-lg-0 mb-3">The latest news, articles and resources sent to your inbox weekely.</p>
+      </div>
+      <div class="col-lg-4 ms-auto text-end my-auto">
+        <div class="row">
+          <div class="col-md-8 col-7">
+            <div class="form-group mb-0">
+              <div class="input-group input-group-alternative">
+                <input class="form-control" placeholder="E-mail" type="email">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-5 text-start ps-0">
+            <button type="button" class="btn bg-gradient-info mb-0 h-100">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="horizontal light my-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 my-auto">
+          <p class="text-white mb-0 opacity-8">
+            Copyright © <script>document.write(new Date().getFullYear())</script> Soft by Creative Tim.
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-6  ms-auto text-end">
+          <button type="button" class="btn btn-icon-only btn-link text-white mb-0 opacity-6">
+            <i class="fab fa-facebook text-lg"></i>
+          </button>
+          <button type="button" class="btn btn-icon-only btn-link text-white mb-0 opacity-6">
+            <i class="fab fa-twitter text-lg"></i>
+          </button>
+          <button type="button" class="btn btn-icon-only btn-link text-white mb-0 opacity-6">
+            <i class="fab fa-dribbble text-lg"></i>
+          </button>
+          <button type="button" class="btn btn-icon-only btn-link text-white mb-0 opacity-6">
+            <i class="fab fa-github text-lg"></i>
+          </button>
+        </div>
+      </div>
+  </div>
+</footer>
+<!-- ---- END FOOTER 2 dark w/ bg image 5 cols & subscribe area & social---- -->
 
 
 </html>

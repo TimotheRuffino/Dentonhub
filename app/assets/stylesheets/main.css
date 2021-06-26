@@ -4,5 +4,29 @@
 }
 
 .bg-img-top {
-  background-image: url(/assets/curved11.jpg);
+  background-image: url(/assets/fauteuil.png);
+}
+
+.img-search {
+  position: relative;
+  width: 200px;
+}
+
+.type-container {
+  margin-top: 50px;
+}
+
+.bg-tile {
+  background-color: #F9E79F;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.fa-book {
+  position: relative;
+  margin-top: -10px;
+  color: #7B41CA;
+  font-size: 25px;
 }

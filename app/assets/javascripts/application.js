@@ -12,5 +12,25 @@
 //
 //= require rails-ujs
 //= require activestorage
-//= require turbolinks
+//= require soft-design-system-pro
+//= require soft-design-system-pro.min
+//= require bootstrap.min
+//= require jquery
+//= require popper.min
+//= require anime.min
+//= require chartjs.min
+//= require choices.min
+//= require countup.min
+//= require flatpickr.min
+//= require glidejs.min
+//= require highlight.min
+//= require moment.min
+//= require nouislider.min
+//= require parallax.min
+//= require perfect-scrollbar.min
+//= require prism.min
+//= require rellax.min
+//= require smooth-scroll.min
+//= require tilt.min
+//= require typedjs
 //= require_tree .

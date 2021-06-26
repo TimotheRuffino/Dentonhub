@@ -2,7 +2,39 @@
 # yarn lockfile v1
 
 
-soft-ui-design-system@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/soft-ui-design-system/-/soft-ui-design-system-1.0.4.tgz#cad93a97f13e28cfbae986fee629f9dc9a6f3c60"
-  integrity sha512-tX86rDIsaW2CscpCEolbqvYMpjZOSHGoTZLFRAV+8HJpYEdbNjeS8BsAUhhs8qDlRnbmCykolVgQqKnKlcfLEQ==
+"@popperjs/core@^2.9.2":
+  "integrity" "sha512-VZMYa7+fXHdwIq1TDhSXoVmSPEGM/aa+6Aiq3nVVJ9bXr24zScr+NlKFKC3iPljA7ho/GAZr+d2jOf5GIRC30Q=="
+  "resolved" "https://registry.npmjs.org/@popperjs/core/-/core-2.9.2.tgz"
+  "version" "2.9.2"
+
+"jquery@^3.1.1", "jquery@^3.6.0":
+  "integrity" "sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw=="
+  "resolved" "https://registry.npmjs.org/jquery/-/jquery-3.6.0.tgz"
+  "version" "3.6.0"
+
+"rellax@^1.12.1":
+  "integrity" "sha512-XBIi0CDpW5FLTujYjYBn1CIbK2CJL6TsAg/w409KghP2LucjjzBjsujXDAjyBLWgsfupfUcL5WzdnIPcGfK7XA=="
+  "resolved" "https://registry.npmjs.org/rellax/-/rellax-1.12.1.tgz"
+  "version" "1.12.1"
+
+"soft-ui-design-system@^1.0.4":
+  "integrity" "sha512-tX86rDIsaW2CscpCEolbqvYMpjZOSHGoTZLFRAV+8HJpYEdbNjeS8BsAUhhs8qDlRnbmCykolVgQqKnKlcfLEQ=="
+  "resolved" "https://registry.npmjs.org/soft-ui-design-system/-/soft-ui-design-system-1.0.4.tgz"
+  "version" "1.0.4"
+
+"tilt.js@^1.2.1":
+  "integrity" "sha512-IGRh3FJbq6BRH2ETb2KxDWont2k740oR+0QMs39QVkjnr7QmA6L1VzSKsOLgFXg5QNtHyRKp7vzFoJCYxgzsJA=="
+  "resolved" "https://registry.npmjs.org/tilt.js/-/tilt.js-1.2.1.tgz"
+  "version" "1.2.1"
+  dependencies:
+    "jquery" "^3.1.1"
+
+"typed.js@^2.0.12":
+  "integrity" "sha512-lyACZh1cu+vpfYY3DG/bvsGLXXbdoDDpWxmqta10IQUdMXisMXOEyl+jos+YT9uBbzK4QaKYBjT3R0kTJO0Slw=="
+  "resolved" "https://registry.npmjs.org/typed.js/-/typed.js-2.0.12.tgz"
+  "version" "2.0.12"
+
+"vanilla-tilt@^1.7.0":
+  "integrity" "sha512-u9yUhpSasFeqQCuiTon+RSb0aHzcj9stvWVXQIswzKL5oG491lkYk7U1GmhOAEZt7yPT6EiYZRJhIh2MFBncOA=="
+  "resolved" "https://registry.npmjs.org/vanilla-tilt/-/vanilla-tilt-1.7.0.tgz"
+  "version" "1.7.0"
