@@ -1,0 +1,2 @@
+class AdditionalViewsController < ApplicationController
+end

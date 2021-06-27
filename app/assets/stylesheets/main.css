@@ -5,6 +5,10 @@
 
 .bg-img-top {
   background-image: url(/assets/fauteuil.png);
+  position: relative;
+  width: 80%;
+  height: auto;
+  left: 51px;
 }
 
 .img-search {
@@ -29,4 +33,10 @@
   margin-top: -10px;
   color: #7B41CA;
   font-size: 25px;
+}
+
+.contact-container {
+  position: relative;
+  margin-top: 20px;
+
 }

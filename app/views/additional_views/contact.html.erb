@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+</head>
+
+<body>
+
+<div class="container position-sticky z-index-sticky top-0">
+    <div class="row">
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg  blur blur-rounded top-0  z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4 px-0">
+          <div class="container">
+            <a class="navbar-brand font-weight-bolder ms-3" href="/" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
+              DentonHub
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navigation">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item px-3">
+                  <a href="/contact" class="nav-link">
+                    Contact
+                  </a>
+                </li>
+
+                <li class="nav-item px-3">
+                  <a class="nav-link">
+                    À propos de nous
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="navbar-nav">
+                <button class="btn btn-sm  bg-gradient-primary  btn-round mb-0 me-1">Se connecter</button>
+              </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+</nav>
+</div>
+</div>
+</div>
+
+
+<header>
+    <div class="page-header min-vh-85">
+      <div>
+         <%= image_tag("contact.svg", style: "width:70%;", class: "position-absolute fixed-top ms-auto w-50 h-100 z-index-0 d-none d-sm-none d-md-block border-radius-section border-top-end-radius-0 border-top-start-radius-0 border-bottom-end-radius-0")%>
+      </div>
+      <div class="container contact-container">
+        <div class="row">
+          <div class="col-lg-7 d-flex justify-content-center flex-column">
+            <div class="card d-flex blur justify-content-center p-4 shadow-lg my-sm-0 my-sm-6 mt-8 mb-5">
+              <div class="text-center">
+                <h3 class="text-gradient text-primary">Nous contacter</h3>
+                <p class="mb-0">
+                  Si vous voulez nous rejoindre ou avoir des informations complémentaires, contactez-nous à l'adresse 
+                </p>
+              </div>
+              <form id="contact-form" method="post" autocomplete="off">
+                <div class="card-body pb-2">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <label>Nom</label>
+                      <div class="input-group mb-4">
+                        <input class="form-control" placeholder="Nom" aria-label="Full Name" type="text">
+                      </div>
+                    </div>
+                    <div class="col-md-6 ps-md-2">
+                      <label>Email</label>
+                      <div class="input-group">
+                        <input type="email" class="form-control" placeholder="hello@dentonhub.com">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group mb-0 mt-md-0 mt-4">
+                    <label>Que voulez-vous savoir ? </label>
+                    <textarea name="message" class="form-control" id="message" rows="6" placeholder="Votre message doit faire au moins 250 caractères"></textarea>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12 text-center">
+                      <button type="submit" class="btn bg-gradient-primary mt-3 mb-0">Envoyer</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+</body>
+
+<footer class="footer py-7 position-relative bg-gradient-dark overflow-hidden">
+  <div class="position-absolute w-100 z-inde-1 top-0 mt-n3">
+    <svg width="100%" viewBox="0 -2 1920 157" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>wave-down</title>
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g fill="#FFFFFF" fill-rule="nonzero">
+                <g id="wave-down">
+                    <path d="M0,60.8320331 C299.333333,115.127115 618.333333,111.165365 959,47.8320321 C1299.66667,-15.5013009 1620.66667,-15.2062179 1920,47.8320331 L1920,156.389409 L0,156.389409 L0,60.8320331 Z" id="Path-Copy-2" transform="translate(960.000000, 78.416017) rotate(180.000000) translate(-960.000000, -78.416017) "></path>
+                </g>
+            </g>
+        </g>
+    </svg>
+  </div>
+  <div class="container position-relative mt-8">
+    <div class="row ">
+      <div class="col-lg-6 col-md-6 col-4">
+        <h1 class="text-primary text-gradient bold-text">DentonHub </h1>
+            <h2 class="text-light bold-text mb-4">L'annuaire du monde dentaire</h2>
+            <p class="text-light lead pe-md-5 me-md-5">Promouvons la coopération, la qualité et l’innovation.</p>
+      </div>
+   
+    <div class="row">
+      <div class="col-lg-6 text-end">
+       <p> Contact <p>       
+      </div>
+      <div class="col-lg-6 text-start">
+      <p> À propos de nous </p>
+      </div>
+      
+      
+      <div class="row">
+        <div class="col-lg-6 col-md-6 my-auto">
+          <p class="text-white text-start mb-0 opacity-8">
+            Copyright © <script>document.write(new Date().getFullYear())</script>
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-6  ms-auto text-end">
+          <button type="button" class="btn btn-icon-only btn-link text-white mb-0 opacity-6">
+            <a href="https://www.facebook.com/groups/266941648108281" class="fab fa-facebook text-lg" style="color: #FFFFFF"></a>
+          </button>
+        
+          <button type="button" class="btn btn-icon-only btn-link text-white mb-0 opacity-6">
+            <i class="fab fa-slack text-lg"></i>
+          </button>
+        </div>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
