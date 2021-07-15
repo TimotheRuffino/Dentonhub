@@ -36,7 +36,12 @@
 
 .contact-container {
   position: relative;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-left: 50px;
 
+}
+
+.book-icon {
+  margin-top: 7px;
+  margin-bottom: 24px;
 }
