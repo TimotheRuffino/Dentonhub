@@ -14,6 +14,9 @@ group :production do
   gem 'pg', '>= 0.18'
 end
 
+gem "letter_opener", group: :development
+gem 'dotenv-rails'
+
 # Use Puma as the app server
 gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 gem 'puma', '~> 3.11'
