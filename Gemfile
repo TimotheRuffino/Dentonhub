@@ -9,14 +9,14 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.3'
 group :development, :test do
   gem 'sqlite3'
 end
-
+gem 'sendinblue'
 group :production do
   gem 'pg', '>= 0.18'
 end
 
 gem "letter_opener", group: :development
 gem 'dotenv-rails'
-
+gem 'simple_form'
 # Use Puma as the app server
 gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 gem 'puma', '~> 3.11'
@@ -37,7 +37,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-
+gem 'sendgrid-ruby'
+gem 'gibbon'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 

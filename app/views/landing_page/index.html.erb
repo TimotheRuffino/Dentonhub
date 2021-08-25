@@ -32,11 +32,11 @@
             <div class="search-bar col-md-3 col-sm-10 d-flex justify-content-center text-md-start text-center flex-column mt-sm-0 mt-7">
               <div class="input-group">
                 <span class="input-group-text"><i class="fas fa-search"></i></span>
-                <input type="text" class="form-control" placeholder="Prothésiste Lyon, réparateur Anthogyr Paris ...">
+                <input type="text" class="form-control" placeholder="Votre recherche ici">
               </div>
             </div>
             <div class="col-md-2 col-10 col-sm-10 ps-0">
-              <button type="button" class="btn bg-gradient-primary w-100 mb-0 h-100">Rechercher</button>
+              <button type="button" class="btn bg-gradient-primary w-100 mb-0 h-100">Bientôt disponible</button>
             </div>
           </div>
       </div>
@@ -140,21 +140,38 @@
       <div class="col-lg-6 d-flex justify-content-center flex-column ms-auto">
       <h4 class="title">Restez informés !</h4>
         <p class="description">
-          Abonnez-vous à notre newsletter et suivez l'avancement du projet chaque semaine !
+          Abonnez-vous à notre newsletter pour suivre l'avancement du projet !
         </p>
+        <% @user = User.new %>
+        <%= simple_form_for [@user] do |f| %>
         <form method="" action="">
           <div class="row">
             <div class="col-sm-8">
               <div class="input-group mb-4">
                 <span class="input-group-text"><i class="fas fa-envelope"></i></span>
-                <input class="form-control" placeholder="Votre Email..." type="text">
+
+                <%= f.input :email ,type:"text", label: false , name:"Votre email", required: true, component:"input" , placeholder:"Votre Email..." %>
+              </div>
+              <div class="input-group mb-4">
+
+                <span class="input-group-text"><i class="fas fa-user"></i></span>
+
+                <%= f.input :last_name , type:"text", label: false,name:"Votre nom", required: true, class: "form-control", component:"input" , placeholder:"Votre Nom..."%>
+              </div>
+              <div class="input-group mb-4">
+
+                <span class="input-group-text"><i class="fas fa-user"></i></span>
+
+                <%= f.input :first_name , type:"text", label: false,name:"Votre prénom", required: true, class: "form-control", component:"input" , placeholder:"Votre Prénom..."%>
+              </div>
               </div>
             </div>
             <div class="col-sm-4">
-              <button type="button" class="btn bg-gradient-primary w-100">S'abonner</button>
+              <button type="submit" class="btn bg-gradient-primary w-100">S'abonner</button>
             </div>
           </div>
         </form>
+        <% end %>
       </div>
     </div>
   </div>

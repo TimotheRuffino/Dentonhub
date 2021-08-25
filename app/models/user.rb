@@ -1,7 +1,15 @@
 class User < ApplicationRecord
-  after_create :welcome_send
+#after_create :subscribe_to_newsletter
 
-  def welcome_send
+
+private
+
+  def subscribe_to_newsletter
+    SubscribeToNewsletterService.new(self).call
+
+  end
+
+  def send_welcome_send
     UserMailer.welcome_email(self).deliver_now
   end
 end

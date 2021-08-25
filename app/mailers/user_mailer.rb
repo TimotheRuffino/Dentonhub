@@ -9,6 +9,12 @@ class UserMailer < ApplicationMailer
     @url  = 'http://www.dentonhub.com' 
 
     # c'est cet appel à mail() qui permet d'envoyer l’e-mail en définissant destinataire et sujet.
-    mail(to: @user.email, subject: 'Bienvenue chez nous !') 
+    mail(to: @user.email, subject: 'Bienvenue chez Dentonhub !')
   end
+
+  def send_welcome(user)
+    @user  = user
+    mail(to: @user.email, subject: 'Welcome')
+  end
+
 end
